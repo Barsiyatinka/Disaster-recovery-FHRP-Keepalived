@@ -25,6 +25,6 @@
 Проверяем работу виртуального IP адреса: <img src="img/1. проверка работы виртуального ip.jpg" width="100%">
 Согласно заданию удалим index.html и проверим как происходит переключение: <img src="img/2. Удаляем index.html  и проверяем как отрабатывает.jpg" width="100%">
 Согласно заданию проверяем как отрабатывает скрипт в случае недоступности порта (гасим Nginx) и видим как всё так же переходит на backup: <img src="img/3. гасим nginx и проверяем как отрабатывает переход.jpg" width="100%">
-Прилагаю [конфигурацию](keepalived.conf_master) keepalived и [скрипт](keepalived.sh_master) основновного сервера и
-[конфигурацию](keepalived.conf_backup) и [скрипт](keepalived.sh_backup) резервного сервера.
+Прилагаю [конфигурацию](keepalived.conf_master) keepalived и [скрипт](check_web.sh_master) основновного сервера и
+[конфигурацию](keepalived.conf_backup) и [скрипт](check_web.sh_backup) резервного сервера.
  
